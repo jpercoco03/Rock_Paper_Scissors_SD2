@@ -44,7 +44,7 @@ class RPSGame extends Component {
   <img
     src="https://image.pngaaa.com/44/901044-middle.png"
     alt="Rock"
-    style={{ width: "100px" }} // Customize image size
+    style={{ width: "100px" }}
   />
 </button>
 
@@ -52,14 +52,14 @@ class RPSGame extends Component {
   <img
     src="http://clipart-library.com/images/5TRKqbRqc.png"
     alt="Paper"
-    style={{ width: "100px" }} // Customize image size
+    style={{ width: "100px" }} 
   />
 </button>
           <button onClick={() => this.handleChoice("scissors")}>
   <img
     src="http://www.clipartbest.com/cliparts/aiq/LBB/aiqLBBLAT.png"
     alt="Scissors"
-    style={{ width: "100px" }} // Customize image size
+    style={{ width: "100px" }}
   />
 </button>
 
